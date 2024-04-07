@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ssp-population"
+version = "0.1.0"
+description = ""
+authors = ["Chihiro Haga"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+geopandas = "^0.14.1"
+geocube = "^0.4.2"
+netcdf4 = "^1.6.5"
+ipykernel = "^6.27.1"
+pyprojroot = "^0.3.0"
+tqdm = "^4.66.1"
+folium = "^0.15.0"
+matplotlib = "^3.8.2"
+mapclassify = "^2.6.1"
+lonboard = "^0.4.2"
+sidecar = "^0.7.0"
+pyarrow = "^14.0.1"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

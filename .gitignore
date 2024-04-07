@@ -1,0 +1,9 @@
+# Python
+.venv/
+
+# Huge data
+output/
+data/
+
+# macOS
+.DS_Store
